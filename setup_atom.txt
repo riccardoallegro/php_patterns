@@ -1,0 +1,24 @@
+- Clonare il repository:
+    git clone https://github.com/riccardoallegro/php_patterns
+che crea anche la cartella corrispondente
+
+- Aprire la cartella creata in Atom: "Open Folder"
+
+- Salvare il progetto: "Project Manager" --> "Save Project"
+
+- Settare il progetto in "PHP Integrator" --> "Set Up Current Project", altrimenti
+  non funge l'autocompletamento e la definizione dei simboli per il "Go to Declaration"
+
+- Installare phpunit dalla console:
+    composer require --dev phpunit/phpunit ^6.0
+
+- Configurare il file composer.json per l'autoload:
+"psr-4": {
+    "root_del_namespace\\": "cartella_in_cui_è_mappato_il_namespace/"
+}
+
+- Lanciare dalla console:
+    composer update
+per aggiornare il file di autoload
+
+- Aggiungere alla root del progetto il file phpunit.xml
