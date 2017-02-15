@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace patterns\singleton;
+namespace patterns\creational\singleton;
 
 /**
  * Classe Singleton... ma pensa un po'!

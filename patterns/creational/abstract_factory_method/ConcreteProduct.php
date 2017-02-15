@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace patterns\abstract_factory_method;
+namespace patterns\creational\abstract_factory_method;
 
 /**
  * Definisce il prodotto concreto che verrà istanziato dalla factory

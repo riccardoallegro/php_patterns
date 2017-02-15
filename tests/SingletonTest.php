@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use patterns\singleton\Singleton;
+use patterns\creational\singleton\Singleton;
 
 class SingletonTest extends TestCase
 {

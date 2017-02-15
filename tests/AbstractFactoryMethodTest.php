@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-use patterns\abstract_factory_method\ConcreteCreator;
 use PHPUnit\Framework\TestCase;
-use patterns\abstract_factory_method\ConcreteProduct;
+use patterns\creational\abstract_factory_method\ConcreteCreator;
+use patterns\creational\abstract_factory_method\ConcreteProduct;
 
 class AbstractFactoryMethodTest extends TestCase
 {
